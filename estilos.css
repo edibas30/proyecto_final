@@ -1,0 +1,47 @@
+h1{
+    font-size : 60px;
+}
+
+.encabezado{
+    background-color: aquamarine;
+    height : 200px;
+    padding: 20px;
+} 
+
+.main{
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+.guacal1{
+    background-color: blueviolet;
+    height : 150px;
+    width : 300px;
+    padding: 10px;
+    float: left;
+}
+
+.solicitud{
+    background-color: blueviolet;
+    height : 150px;
+    width : 300px;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.semillas{
+    background-color: burlywood;
+    float:
+}
+
+footer{
+    display:flex;
+    margin:auto;
+    border:solid black;
+}
+
+footer >div{
+    background-color: coral;
+    width: 50%;
+}

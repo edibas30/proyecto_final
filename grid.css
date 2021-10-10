@@ -1,0 +1,22 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main .huerta{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.main .solicitud{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.main .otros_productos{
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
