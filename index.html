@@ -1,135 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0">
+    <title>Página Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Contáctenos</a>
+            </nav>
+        </div>
+        <div class="encabezado">
+            <div class="logo">logo</div>
+            <div class="titulo">titulo</div>
+            <div class="bienvenido">bienvenido</div>
+        </div>
+    </header>
+    <main>
+        <div class="productos">arma tu huerta</div>
+        <section class="productos">
+            <article>prod 1.</article>
+            <article>prod 2.</article>
+            <article>prod 3.</article>
+            <aside>seleccion</aside>
+        </section>
+    </main>
+    <footer>
+        <div>Conócenos</div>
+        <div>Contáctenos</div>
+        <div>Copyright</div>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+</html>
+
+<!--
+
+<!DOCTYPE html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, 
+        maximum-scale=1.0, minimum-scale=1.0" >
         <title>Pagina principal</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel = "stylesheet" href = "estilos.css">
-    <!--    <link rel = "stylesheet" href = "grid.css">-->
+        <link rel = "stylesheet" href = "estilos.css"
+        <link rel = "stylesheet" href = "grid.css">
     </head>
     <body>
-        <div class="main-container">
-            <header>
-                <div class="logo">
-                    <img src="./documents/logo-huerta.png" width="150" alt="">
-                    <a href="#">Huertas Ecológicas</a>
+        <header>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Contáctenos</a>
+                <a href="#">Administración</a>
+            </nav>
+            <div class="logo">
+                <div>
+                    <img src="./documents/logo-huerta.jpg" alt="imagen">
                 </div>
-                <nav>
-                    <a href="#">Inicio</a>
-                    <a href="#">Huerta</a>
-                    <a href="#">Productos</a>
-                    <a href="#">Contáctenos</a>
-                </nav>
-            </header>
-            <main>
-                <section class="seleccion-producto">
-                    <h2>Arma tu huerta portable</h2>
-                    <article>
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./documents/huerta1.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./documents/huerta2.jpg" alt="">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./documents/huerta3.jpg" alt="">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>                   
-                        <h2>Selecciona el Contenedor</h2> 
-                    </article>
-                    <article>
-                        <img src="./documents/producto2.jpg" alt="">
-                        <p>precio 1</p>
-                    </article>
+                <div>
+                    <h1>Huertas Caseras</h1>
+                </div>
+            </div>
+            <div class="bienvenido">
+                <h2>Bienvenid@s a nuestro portal!!</h2>
+            </div>
+        </header>
+        <main>
+            <div class="titulo_main">
+                <h2>Arma tu huerta casera</h2>
+            </div>
+            <section class="huerta">
+                <section class="productos">productos
+
                 </section>
-                <aside>
-                    <div class="widget">
-                        <div class="imagen"></div>
-                    </div>
-                </aside>
-            </main>
-<!--
-                <div class="huerta">
-                    <h2>Arma tu huerta</h2>
+                <div class="seleccion">
+                    <h2>Seleccion de productos</h2>
                 </div>
-                <div>
-                    <h3>Contenedor</h3>
+            </section>
+            <section class="huerta">
+                <section class="productos">
+                        <article class="cesta">
+                            
+                                <p>Por favor seleccione el diseño de la cesta (contenedor) de su preferencia.  
+                                Recuerde que el tipo madera es pino tratado proveniente de plantaciones certificadas
+                                como responsables con el medio ambiente.
+                                </p>
+                            
+                            <img src="./documents/huerta1.jpg" alt="huerta1">
+                            <img src="./documents/huerta2.jpg" alt="huerta2">
+                            <img src="./documents/huerta3.jpg" alt="huerta3">
+                        </article>
+                        <article class="semillas">
+                            <p>Por favor elija las semillas que va a sembrar</p>
+                            <img src="./documents/cilantro.jpg" alt="">
+                            <img src="./documents/tomate.jpg" alt="">
+                            <img src="./documents/pimenton.jpg" alt="">
+                        </article>
+                        <article class="sustrato">
+                            <p>Por favor escoja el sustrato y/o abono para su huerta</p>
+                            <img src="./documents/tierra.jpg" alt="">
+                            <img src="./documents/cascarilla.jpg" alt="">
+                            <img src="./documents/humus2.jpg" alt="">
+                        </article>
+                </section>
+                <div class="seleccion">
+                    <h2>
+                        Seleccion productos
+                    </h2>
                 </div>
-                <div>
-                    <h3>guacal 1</h3>
-                </div>
-                <div>
-                    <h3>guacal 2</h3>
-                </div>
-                <div class="solicitud">
-                    <h3>Imagen producto solicitado</h3>
-                </div>
-                <div>
-                    <h3>Elige tus semillas</h3>
-                </div>
-                <div>
-                    <h3>Semillas 1</h3>
-                </div>
-                <div>
-                    <h3>Semillas 2</h3>
-                </div>
-                <div class="otros_productos">
-                    <h3>Otros productos</h3>
-                </div>
-                <div>
-                    <h3>Sustratos y abonos</h3>
-                </div>
-                <div>
-                    <h3>Imagen s. y a. 1</h3>
-                </div>
-                <div>
-                    <h3>Imagen s. y a. 2</h3>
-                </div>
-                <div>
-                    <h3>Imagen s. y a. 3</h3>
-                </div>
-                <div>
-                    <h3>kits y herramientas</h3>
-                </div>
-                <div>
-                    <h3>Imagen k. y s. 1</h3>
-                </div>
-                <div>
-                    <h3>Imagen k. y s. 2</h3>
-                </div>
-                <div>
-                    <h3>Imagen k. y s. 3</h3>
-                </div>
-            </main>
--->
-       
+            </section>
+
+            <div class="main_section">
+            <div> primero
+            <section>
+                <article>
+                    <p>Por favor seleccione el diseño de la cesta (contenedor) de su preferencia.  
+                        Recuerde que el tipo madera es pino tratado proveniente de plantaciones certificadas
+                        como responsables con el medio ambiente.
+                    </p>
+                    <img src="./documents/huerta1.jpg" alt="huerta1">
+                    <img src="./documents/huerta2.jpg" alt="huerta2">
+                    <img src="./documents/huerta3.jpg" alt="huerta3">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <p>Por favor elija las semillas que va a sembrar</p>
+                    <img src="./documents/cilantro.jpg" alt="">
+                    <img src="./documents/tomate.jpg" alt="">
+                    <img src="./documents/pimenton.jpg" alt="">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <p>Por favor escoja el sustrato y/o abono para su huerta</p>
+                    <img src="./documents/tierra.jpg" alt="">
+                    <img src="./documents/cascarilla.jpg" alt="">
+                    <img src="./documents/humus2.jpg" alt="">
+                </article>
+            </section>
+            </div>
+            <div>
+                <h2>Productos seleccionados</h2>
+            </div>
+            </div>
+
+        </main>
         <footer>
-            <div>
-                <h3>Nuestra empresa</h3>
-            </div>
-            <div>
-                <h3>Contáctenos</h3>
-            </div>
+            <div class="historia">Historia</div>
+            <div class="contactenos">Contáctenos</div>
         </footer>
-        </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
