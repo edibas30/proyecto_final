@@ -1,30 +1,84 @@
 *{
     margin:10px;
-    padding:0px;
-    box-sizing: border-box;
+    padding:10px;
+    box-sizing: border-box;  /*para que las cajas no se desborden */
 }
-
+/* coloco el body como contenedor principal, preguntar si esto es correcto */
 body {
     border: 1px solid black;
+    display: flex; /* esta linea se considera que no seria necesaria */
+    flex-flow: column nowrap; /*esta tambien */
 }
 
 header, .navbar, .encabezado, .logo, .titulo, .bienvenido {
     border: 1px solid black;
 }
-        .navbar {
-            display: flex;
-            justify-content: right;
-            text-align: right;
-        }
 
-main, article, aside, .productos  {
+header {
+    padding: 2px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+        .navbar {
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            flex-flow: nowrap;
+            justify-content: right;
+        }
+            nav a {
+                text-decoration: none;
+            }
+        .encabezado {
+            padding: 2px;
+            height: 100px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+            .logo {
+                flex: 1 1 auto;
+            }
+            .titulo {
+                flex: 1 1 auto;
+
+            }
+            .bienvenido {
+                flex: 1 1 auto;
+
+            }
+
+main, article, aside, .general, .huerta, .productos  {
     border: 1px solid black;
 }
-
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .general {
+        display: flex;
+    }
+    .productos {
+        flex: 1 1 80%;
+    }
+    aside {
+        flex: 1 1 20%;
+    }
 
 footer, footer div {
     border: 1px solid black;
 }
+
+footer {
+    display: flex;
+    flex-flow: wrap;
+}
+footer div {
+    flex: 1 1 auto;
+}
+    .copy{
+        flex: 1 1 100%;
+    }
 
 /*
 *{
